@@ -70,7 +70,7 @@ section {
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
-        outline: 2px solid red
+        /* outline: 2px solid red */
 }
 
 .visually-hidden {
@@ -256,7 +256,7 @@ section {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
-    border: 1px solid #2196F3;
+    /* border: 1px solid #2196F3; */
 
 }
 .benefits {
@@ -447,11 +447,11 @@ section {
 }
 .partners-link:hover,
 .partners-link:focus {
-    border: 1px solid #2196F3;
+    border: 1px solid var(--accent);
 }
-.partners-link:hover .partners-icon:hover,
-.partners-link:focus .partners-icon:focus {
-    fill: #2196F3;
+.partners-link:hover .partners-icon,
+.partners-link:focus .partners-icon {
+    fill: var(--accent); 
 }
 
 
