@@ -256,7 +256,8 @@ section {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
-    /* border: 1px solid #2196F3; */
+    border-radius: 2%;
+    margin-bottom: 30px;
 
 }
 .benefits {
@@ -267,7 +268,7 @@ section {
     column-gap: 30px;
  }
  .benefits-icon {
-    margin: 25px 100px 25px 100px;
+    /* margin: 25px 100px 25px 100px; */
  }
 
 
@@ -331,7 +332,7 @@ section {
 
 .employees-list {
     display: flex;
-    column-gap: 16px;
+    column-gap: 30px;
 }
 .employees-item {
     width: calc((100%-90px)/4);
@@ -619,6 +620,9 @@ align-items: center;
     padding-top: 94px;
     padding-bottom: 94px;
     
+}
+.header-container {
+    border-bottom: 1px solid #757575;
 }
 
 .gallary-button {
