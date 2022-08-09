@@ -177,6 +177,12 @@ section {
 .header-auth-tel .icon {
     margin-right: 10px;
 }
+.header-auth-tel .icon{
+    fill: var(--color-text);
+}
+.header-auth-mail .icon{
+     fill: var(--color-text);
+}
 
 /* -----------Герой-------- */
 .hero {
@@ -319,7 +325,6 @@ section {
 .employees {
     display: flex;
     background-position: center;
-    max-width: 1600px;
     background-color: #F5F4FA;
     margin: 0 auto;
         
@@ -358,8 +363,8 @@ section {
 
 .workers-text {
     max-width: 270px;
-    margin-top: 30px;
-    margin-bottom: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .item-text-emp {
     margin-bottom: 16px;
@@ -622,7 +627,7 @@ align-items: center;
     
 }
 .header-container {
-    border-bottom: 1px solid #757575;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .gallary-button {
@@ -641,6 +646,13 @@ align-items: center;
         color: #212121;
         border: none;
         background: #F5F4FA;
+        border-radius: 5%;
+}
+.gallary-button:hover,
+.gallary-button:focus {
+    color: var(--white-color-text);
+    background-color: var(--accent);
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
 .gallery-list {
     display: flex;
